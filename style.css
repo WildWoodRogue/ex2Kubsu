@@ -14,15 +14,23 @@ header {
 }
 
 header {
+    
+    justify-content: start;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 1000px;
     max-width: 960px;
     margin: 0 auto;
 }
 
-
-
+.nameLinks{
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    padding-left:100px ;
+}
+.chet td{
+    background-color: aqua;
+}
 main {
     max-width: 960px;
     margin: 0 auto;
